@@ -1,0 +1,27 @@
+#text {
+  text-align: center;
+  font-family: Verdana;
+}
+
+.buttons {
+  display: block;
+  text-align: center;
+  padding: 10px 10px;
+  cursor: pointer;
+  background-color: lightpink;
+  border-color: none;
+  color: white;
+  border-radius: 3px;
+  font-size: 20px;
+  transition: background-color 0.25s;
+}
+
+.buttons:hover {
+  background-color: palevioletred;
+}
+
+.buttons, #img {
+  display: block;
+  margin: 0 auto;   /* centers block elements horizontally */
+  justify-content: center;
+}
